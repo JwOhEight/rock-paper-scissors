@@ -1,11 +1,11 @@
-const choiceOptions = [
-    "Rock",
-    "Paper",
-    "Scissors"
-];
-
-function getComputerChoice() {
-    return choiceOptions[Math.floor(Math.random() * choiceOptions.length)];
+function playRound(playerSelection, computerSelection) {
+    const choiceOptions = [
+        "Rock",
+        "Paper",
+        "Scissors"
+    ]
 }
-
-getComputerChoice();
+  
+  const playerSelection = "rock";
+  const computerSelection = getComputerChoice();
+  console.log(playRound(playerSelection, computerSelection));
