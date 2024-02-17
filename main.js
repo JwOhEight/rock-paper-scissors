@@ -3,3 +3,8 @@ const choiceOptions = [
     "Paper",
     "Scissors"
 ]
+
+function getComputerChoice() {
+    let computerChoice = choiceOptions.random;
+    return computerChoice;    
+}
